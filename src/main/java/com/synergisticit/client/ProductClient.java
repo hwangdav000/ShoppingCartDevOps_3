@@ -11,7 +11,7 @@ import com.synergisticit.domain.Product;
 
 import java.util.List;
 
-@FeignClient(name = "SHOPPING-MICROSERVICE3", url = "http://${microservice3:localhost}:8093")
+@FeignClient(name = "SHOPPING-MICROSERVICE3", url = "http://3.20.227.183:8093")
 public interface ProductClient {
 
     @PostMapping("/api/products/save")
